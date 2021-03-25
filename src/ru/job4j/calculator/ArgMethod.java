@@ -12,5 +12,6 @@ public class ArgMethod {
 
         ArgMethod.hello(name);
         System.out.print(age);
+
     }
 }
