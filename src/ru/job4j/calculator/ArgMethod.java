@@ -10,6 +10,7 @@ public class ArgMethod {
         String name = "Petr Arsentev";
         int age = 33;
 
+
         ArgMethod.hello(name);
         System.out.print(age);
 
