@@ -8,8 +8,7 @@ public class SqArea {
     public static void main(String[] args) {
         double k = 2;
         int p = 6;
-        double s = SqArea.square((int) p, k);
+        double s = SqArea.square(p, k);
         System.out.println("Площадь треугольника равна" + s);
     }
-
 }
