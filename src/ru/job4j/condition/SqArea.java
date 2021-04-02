@@ -11,4 +11,5 @@ public class SqArea {
         double s = SqArea.square(p, k);
         System.out.println("Площадь треугольника равна" + s);
     }
+
 }
