@@ -12,5 +12,6 @@ public class Max {
         int right = 10;
         int maximum = Max.max(5, 10);
         System.out.println(maximum);
+
     }
 }
