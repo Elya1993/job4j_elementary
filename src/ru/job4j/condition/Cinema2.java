@@ -7,23 +7,12 @@ public class Cinema2 {
         } else {
             System.out.println("I can not");
         }
-
     }
 
     public static void main(String[] args) {
-        boolean one = true;
-        boolean two = true;
-        boolean three = true;
-        boolean four = false;
-        boolean five = false;
-        boolean six = true;
-        boolean seven = false;
-        boolean eight = false;
-        Cinema2.permission(one, two);
-        Cinema2.permission(three, four);
-        Cinema2.permission(five, six);
-        Cinema2.permission(seven, eight);
-
+        Cinema2.permission(true, true);
+        Cinema2.permission(true, false);
+        Cinema2.permission(false, true);
+        Cinema2.permission(false, false);
     }
-
 }
