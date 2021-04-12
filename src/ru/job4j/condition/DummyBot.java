@@ -2,19 +2,23 @@ package ru.job4j.condition;
 
 public class DummyBot {
     public static String answer(String question) {
-        if (question.equals("Привет, Бот")) {
-            System.out.println("Привет,умник!");
-        }
-        else if (question.equals("Пока")) {
-            System.out.println("До скорой встречи!");
+        String rsl;
+        if ("Привет, Бот.".equals(question)) {
+            rsl = "Привет, умник.";
+        } else if ("Пока.".equals(question)) {
+            rsl = "До скорой встречи.";
         } else {
-            System.out.println("Это ставит меня в тупик. Задайте другой вопрос");
+            rsl = "Это ставит меня в тупик. Задайте другой вопрос.";
         }
-        return question;
+        return rsl;
     }
 
 
     public static void main(String[] args) {
-        DummyBot.answer("Привет, Бот");
+        String rsl = DummyBot.answer("Привет, Бот");
+        System.out.println(rsl);
+        rsl = DummyBot.answer("Пока.");
+        System.out.println(rsl);
+
     }
 }
