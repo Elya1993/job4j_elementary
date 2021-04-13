@@ -9,11 +9,10 @@ public class Triangle {
         } else {
             return false;
         }
-
     }
 
     public static void main(String[] args) {
-        Triangle.exist(4, 5, 9);
+        Triangle.exist(4.0, 5.2, 9.5);
 
     }
 }
