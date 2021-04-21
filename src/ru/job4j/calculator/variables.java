@@ -1,4 +1,4 @@
-package ru.job4j.calculate;
+package ru.job4j.calculator;
 
 public class variables {
     public static void main(String[] args) {
@@ -8,7 +8,5 @@ public class variables {
         System.out.println(lenght);
         boolean baby = true;
         System.out.println(baby);
-
-
     }
 }

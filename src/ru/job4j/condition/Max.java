@@ -2,8 +2,7 @@ package ru.job4j.condition;
 
 public class Max {
     public static int max(int left, int right) {
-        boolean rsl = int left > int right ? "Число left больше числа right." : "Число left меньше числа right.";
-        return rsl;
+        return left > right ? left : right;
 
     }
 

@@ -51,5 +51,4 @@ public class X2Test {
         int rsl3 = X2.calc(a3, b3, c3, x3);
         Assert.assertEquals(expected, rsl3);
     }
-
 }

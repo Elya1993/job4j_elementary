@@ -1,14 +1,15 @@
 package ru.job4j.condition;
 
 public class Club {
-    public static void permission (boolean befriend, boolean hasmoney) {
-        if (befriend || hasmoney){
+    public static void permission(boolean befriend, boolean hasmoney) {
+        if (befriend || hasmoney) {
             System.out.println("I can go to the club");
-        } else{
+        } else {
             System.out.println("I can not");
         }
 
     }
+
     public static void main(String[] args) {
         permission(true, false);
         permission(false, false);
