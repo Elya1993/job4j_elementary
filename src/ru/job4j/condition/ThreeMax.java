@@ -10,6 +10,5 @@ public class ThreeMax {
             result = third;
         }
         return result;
-
     }
 }
