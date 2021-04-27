@@ -4,30 +4,17 @@ public class MultipleSwitchWeek {
 
 
     public static int numberOfDay(String name) {
-        int number = 0; // по названию дня недели нужно вывести его порядковый номер
-        switch (name) {
-            case "Понедельник", "Monday" -> {
-                number = 1;
-            }
-            case "Вторник", "Tuesday" -> {
-                number = 2;
-            }
-            case "Среда", "Wednesday" -> {
-                number = 3;
-            }
-            case "Четверг", "Thursday" -> {
-                number = 4;
-            }
-            case "Пятница", "Friday" -> {
-                number = 5;
-            }
-            case "Суббота", "Saturday" -> {
-                number = 6;
-            }
-            case "Воскресенье", "Sunday" -> {
-                number = 7;
-            }
-        }
-        return number;
+        int numberOfDay = switch (name) {
+            case "Понедельник", "Monday" -> 1;
+            case "Вторник", "Tuesday" -> 2;
+            case "Среда", "Wednesday" -> 3;
+            case "Четверг", "Thursday" -> 4;
+            case "Пятница", "Friday" -> 5;
+            case "Суббота", "Saturday" -> 6;
+            case "Воскресенье", "Sunday" -> 7;
+            default -> -1;
+
+        };
+        return numberOfDay;
     }
 }
