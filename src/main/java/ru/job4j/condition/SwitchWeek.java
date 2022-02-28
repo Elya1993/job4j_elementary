@@ -25,12 +25,16 @@ public class SwitchWeek {
             case 7:
                 name = "Sunday";
                 break;
+            default:
+                name = "Ошибка";
+                break;
         }
         return name;
     }
 
     public static void main(String[] args) {
-        System.out.println(SwitchWeek.nameOfDay(5));
+
+        System.out.println(SwitchWeek.nameOfDay(8));
     }
 }
 
