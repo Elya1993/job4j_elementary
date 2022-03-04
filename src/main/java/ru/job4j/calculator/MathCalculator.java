@@ -8,6 +8,7 @@ public class MathCalculator {
         return sum2;
     }
 
+
     public static double finish(double first, double second) {
         double finish = ((first - second) + (first / second) + ((first - second) + (first / second)));
         //почему вместо "(first - second)" я не могу написать просто переменную "minus1", которая в классе MathFunction
