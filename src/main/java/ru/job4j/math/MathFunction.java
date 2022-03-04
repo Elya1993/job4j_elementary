@@ -8,6 +8,7 @@ public class MathFunction {
     public static double minus(double first, double second) {
         double minus1 = first - second;
         return minus1;
+
     }
     public static double div(double first, double second) {
         double div1 = first / second;

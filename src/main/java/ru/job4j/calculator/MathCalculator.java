@@ -6,6 +6,7 @@ public class MathCalculator {
     public static double sumOfMinusAndDiv(double first, double second) {
         double sum2 = (first - second) + (first / second);
         return sum2;
+
     }
 
     public static double finish(double first, double second) {
