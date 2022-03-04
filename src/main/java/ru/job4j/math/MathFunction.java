@@ -14,7 +14,6 @@ public class MathFunction {
         return div1;
     }
 
-
     public static void main(String[] args) {
         System.out.println(MathFunction.sum(10, 20));
         System.out.println(MathFunction.minus(10, 20));
