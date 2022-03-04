@@ -2,20 +2,22 @@ package ru.job4j.math;
 
 public class MathFunction {
 
+    public static double sum(double first, double second) {
+        return first + second;
+    }
     public static double minus(double first, double second) {
-        double rsl1 = (first - second);
-        return rsl1;
+        double minus1 = first - second;
+        return minus1;
     }
     public static double div(double first, double second) {
-        double rsl2 = (first / second);
-        return rsl2;
+        double div1 = first / second;
+        return div1;
     }
 
-
-
     public static void main(String[] args) {
-        System.out.println(minus(10, 20));
-        System.out.println(div(10, 20));
+        System.out.println(MathFunction.sum(10, 20));
+        System.out.println(MathFunction.minus(10, 20));
+        System.out.println(MathFunction.div(10, 20));
 
     }
 }
