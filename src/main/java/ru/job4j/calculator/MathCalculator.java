@@ -5,6 +5,7 @@ public class MathCalculator {
         return (first - second) + (first / second);
     }
 
+
     public static double rsl(double first, double second) {
         return ((first - second) + (first / second) + ((first - second) + (first / second)));
     }
