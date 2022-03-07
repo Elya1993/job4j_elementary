@@ -5,14 +5,13 @@ public class MathFunction {
     public static double sum(double first, double second) {
         return first + second;
     }
-    public static double minus(double first, double second) {
-        double minus1 = first - second;
-        return minus1;
 
+    public static double minus(double first, double second) {
+        return first - second;
     }
+
     public static double div(double first, double second) {
-        double div1 = first / second;
-        return div1;
+        return first / second;
     }
 
     public static void main(String[] args) {
