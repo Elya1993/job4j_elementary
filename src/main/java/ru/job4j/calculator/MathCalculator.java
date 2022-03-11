@@ -9,7 +9,6 @@ public class MathCalculator {
         return ((first - second) + (first / second) + ((first - second) + (first / second)));
     }
 
-
     public static void main(String[] args) {
         System.out.println(MathCalculator.sumOfMinusAndDiv(10, 20));
         System.out.println(MathCalculator.rsl(10, 20));
