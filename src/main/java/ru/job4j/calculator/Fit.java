@@ -1,6 +1,5 @@
 package ru.job4j.calculator;
-   // Нужно дописать код, чтобы методы вычисляли идеальный вес для мужчины и женщины.
-   //Вместо -1 вам нужно написать формулу приведенную выше.
+
 public class Fit {
 
     public static double manWeight(int height) {
