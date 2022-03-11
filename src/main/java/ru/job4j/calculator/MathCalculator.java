@@ -12,5 +12,6 @@ public class MathCalculator {
     public static void main(String[] args) {
         System.out.println(MathCalculator.sumOfMinusAndDiv(10, 20));
         System.out.println(MathCalculator.rsl(10, 20));
+
     }
 }
