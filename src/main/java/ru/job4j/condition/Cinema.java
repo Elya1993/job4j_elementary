@@ -1,7 +1,6 @@
 package ru.job4j.condition;
 
-public class Cinema {  // Разработайте программу для кинотеатра.
-    // В кинотеатре показывают фильмы для взрослых.
+public class Cinema {
     public static void access(int age) {
         System.out.println("The age of the customer is : " + age);
         if (age >= 18) {
